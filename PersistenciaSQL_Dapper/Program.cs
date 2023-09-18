@@ -6,7 +6,7 @@ using Microsoft.Data.SqlClient;
 using PersistenciaSQL_Dapper;
 using System.Data;
 
-using (SqlConnection sql = new SqlConnection("Data Source=SWO5CD208FXVW\\SQLEXPRESS;Initial Catalog=WebApiNet6;Integrated Security=true;Connect Timeout=30;Encrypt=False"))
+using (SqlConnection sql = new SqlConnection("Data Source=;Initial Catalog=WebApiNet6;Integrated Security=true;Connect Timeout=30;Encrypt=False"))
 {
     //PROCEDIMIENTO ALMACENADO INSERTAR
     //Prueba prueba = new Prueba();
